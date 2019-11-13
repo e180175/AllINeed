@@ -1,0 +1,15 @@
+name: AllINeed
+version: 1.0
+author: Alaskalix
+main: be.alaskalix.main.Main
+depend: [Vault]
+commands:
+  pm:
+    description: send private message to player
+    permission: ain.pm
+  broadcast:
+    description: broadcast a message to all
+    permission: ain.broadcast
+  spawn:
+    description: tp to spawn
+    permission: ain.spawn
